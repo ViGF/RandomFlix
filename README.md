@@ -1,5 +1,5 @@
 # RandomFlix
-#Não sabe o que assistir?Gere  uma obra cinematográfica aleatoriamente a partir de um botão
+#Gere uma obra cinematográfica aleatoriamente a partir de um click
 
 ![cover](src/assets/capa.png)
 
