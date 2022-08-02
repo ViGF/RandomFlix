@@ -1,5 +1,5 @@
 # RandomFlix
-#Gere uma obra cinematográfica aleatoriamente a partir de um click
+Gere uma obra cinematográfica aleatoriamente a partir de um click
 
 ![cover](src/assets/capa.png)
 
@@ -7,7 +7,7 @@
 React | IMDB API | Ant Design | Material UI | Vite | TypeScript
 
 ## 🔖 Layout
-Você pode visualizar o layout do projeto através [desse link]().
+Você pode visualizar o layout do projeto através [desse link](https://www.figma.com/file/kPjS5hSIvIadPJfrsC2gEP/DD-%2F-Rocketflix-(Copy)?node-id=3%3A2).
 
 ## 💻 Uso
 Em seu terminal:
