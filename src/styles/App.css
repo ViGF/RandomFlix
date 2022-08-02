@@ -1,0 +1,86 @@
+.header {
+    width: 100%;
+    height: 100%;
+    background: var(--background);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5%;
+    padding-inline: 3rem;
+    text-align: center;
+    min-height: 100vh;
+    overflow: hidden;
+    justify-content: center;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.title h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 4rem;
+    line-height: 6rem;
+    color: var(--title);
+}
+
+.header button {
+    display: flex;
+    align-items: center;
+    padding: 1.1rem 1.4rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: #000000;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    gap: 1.7rem;
+    background: var(--bg-button);
+    border: 2px solid #1A1A1A;
+    border-radius: 5px;
+    margin-top: 3rem;
+}
+
+.about {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.4rem;
+    line-height: 2.1rem;
+    color: var(--title);
+    margin-top: 2.6rem;
+    padding-bottom: 16%;
+    max-width: 38rem;
+}
+
+.loading {
+    margin-top: 2.6rem;
+}
+
+.loading svg {
+    width: 3rem;
+    height: 3rem;
+    color: #FFFF;
+}
+
+.header .dialog-button svg {
+    position: fixed;
+    top: 2rem;
+    right: 2rem;
+    width: 3rem;
+    height: 3rem;
+    fill: #FFFF;
+    transition: transform 0.3s;
+}
+
+.header .dialog-button svg:hover {
+    transform: scale(1.4);
+}
+
+@media (max-width: 412px) {
+    .header {
+        padding-top: 10%;
+        overflow: visible;
+    }
+}

@@ -1,0 +1,36 @@
+.container {
+    display: grid;
+    grid-template-columns: min-content 42.3rem;
+    gap: 3.4rem;
+    font-family: 'Poppins', sans-serif;
+    color: var(--title);
+    margin-top: 3rem;
+    justify-items: center;
+}
+.container img {
+    height: 24.37rem;
+}
+
+.informations h2 {
+    font-size: 2rem;
+    line-height: 3rem;
+    text-align: left;
+}
+
+.informations p {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    text-align: left;
+    margin-top: 1.9rem;
+}
+
+@media (max-width: 412px) {
+    .container {
+        grid-template-columns: 1fr;
+    }
+
+    .informations h2,
+    .informations p {
+        text-align: center;
+    }
+}
