@@ -31,7 +31,7 @@ export function App() {
     fetch(`https://imdb-api.com/pt-BR/API/Title/${import.meta.env.VITE_API_KEY}/${movieId}`)
       .then(response => response.json())
       .then(res => {
-        if (res.errorMessage.split().length > 0) {
+        if (res.errorMessage) {
           alert(res.errorMessage)
         }
         setMovie(res)
@@ -46,7 +46,7 @@ export function App() {
     fetch(`https://imdb-api.com/pt-BR/API/BoxOfficeAllTime/${import.meta.env.VITE_API_KEY}`)
       .then(reponse => reponse.json())
       .then(res => {
-        if (res.errorMessage.split().length > 0) {
+        if (res.errorMessage) {
           alert(res.errorMessage)
         }
         getMovieInformations(res)
