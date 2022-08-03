@@ -32,6 +32,10 @@ yarn run dev
 #Agora basta acessar a aplicação
 ```
 
+##🏷️Features para você implementar
+- Adicione um filtro de gênero
+- Explore a API e retorne uma lista maior de obras a ser sorteada
+
 <div align="center">
   <small>Desenvolvido por Vitório Gomes - Julho/2022</small>  
 </div>
