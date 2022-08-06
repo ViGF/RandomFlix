@@ -20,7 +20,7 @@ export function App() {
   const [show, setShow] = useState<boolean>(false)
 
   function renderIndexList() {
-    return Number(Math.floor((Math.random() * 200)).toFixed(0))
+    return Number(Math.floor((Math.random() * 201))
   }
 
   function getMovieInformations(res: movieResponse) {
